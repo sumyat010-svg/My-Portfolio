@@ -246,54 +246,19 @@ body {
 
 .social-section {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: auto;
-    margin-top: 190px;
-    gap: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 100px;
 }
 
-.cardsocial {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
+.Cv button {
+    border-radius: 5px;
+    background-color: var(--primary-color);
+
 }
 
-.socialcard {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.socialimage:hover {
+.Cv button:hover {
     transform: scale(1.05);
     box-shadow: 0 0 25px #00d4ff,
         0 0 35px #00d4ff;
-}
-
-.socialimage {
-    width: 210px;
-    height: 210px;
-    border-radius: 50%;
-    animation: floatimage 4s ease-in-out infinite;
-    transition: 0.4s ease;
-}
-
-.socialimage img {
-    width: 200px;
-    height: 200px;
-    justify-content: center;
-    align-items: center;
-}
-
-.socialqr {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-left: 120px;
-    gap: 150px;
 }
