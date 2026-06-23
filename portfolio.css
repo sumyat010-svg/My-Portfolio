@@ -246,9 +246,17 @@ body {
 
 .social-section {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 100px;
+}
+
+.cardsocial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Cv button {
